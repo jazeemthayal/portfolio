@@ -74,7 +74,6 @@ export default function Navbar() {
     "divide-dotted",
     "divide-[#2d2e34]",
     "rounded",
-    // "animate-grow-animation",
     "transition-[transform,opacity]",
     "duration-150",
     "ease-in",
@@ -87,6 +86,7 @@ export default function Navbar() {
       "z-0": mobMenuVisible,
     }
   );
+  // "animate-grow-animation",
 
   const mbMenuListItem = classNames(
     "font-bold",
