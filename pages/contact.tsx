@@ -7,20 +7,24 @@ interface Props {
 export default function Contact({ id }: Props) {
   return (
     <section id={id} className="py-20 bg-[#191919]">
-      <div className="mx-44">
-        <div className="heading flex mb-10">
-          <div className="icon w-44">
+      <div className="xl:mx-44">
+        <div className="heading space-y-5 mb-10 md:flex md:justify-center md:space-y-0">
+          {/* flex  */}
+          <div className="icon  hidden pl-10 md:block">
             <FaEnvelope color="#ebeeee" size="72px" />
           </div>
-          <p className="max-w-3xl text-lg text-[#636363]">
+          <h5 className="uppercase text-[#EBEEEE] font-bold tracking-widest text-center md:hidden">
+            get in touch.
+          </h5>
+          <p className="max-w-3xl text-lg text-[#636363] px-10 text-center md:text-left">
             If you want to create a new website, web application, fix any issue,
             bugs of your website or you are looking for Web Developer then you
             are at right place.
           </p>
         </div>
-        <div className="details lg:flex">
+        <div className="details space-y-10 lg:space-y-0 lg:flex">
           <form
-            className="space-y-10 max-w-[541px] w-full"
+            className="space-y-10 max-w-[541px] w-full px-5 m-auto"
             autoComplete="new-off"
           >
             <div className="lg:flex lg:items-start">
@@ -80,7 +84,7 @@ export default function Contact({ id }: Props) {
               </a>
             </div>
           </form>
-          <div className="address ml-24">
+          <div className="address lg:ml-24 max-w-[541px] px-5 m-auto">
             <h3 className="capitalize font-bold text-white">address</h3>
             <p className="text-[#636363] text-sm leading-7">
               Aditya Santra <br />

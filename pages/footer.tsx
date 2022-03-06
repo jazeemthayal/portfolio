@@ -2,7 +2,6 @@ import { ImFacebook, ImTwitter, ImLinkedin2, ImGithub } from "react-icons/im";
 import { IconContext } from "react-icons";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { Link as ReactScrollLink } from "react-scroll";
-import Link from "next/link";
 
 export default function Footer() {
   return (

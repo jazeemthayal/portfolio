@@ -10,8 +10,8 @@ interface Props {
 export default function About({ id }: Props) {
   return (
     <section className=" bg-[#2b2b2b] py-20" id={id}>
-      <div className="mx-44 flex justify-between">
-        <div className="img">
+      <div className="flex justify-center mx-10 xl:mx-44">
+        <div className="hidden  lg:block img min-w-[130px] mr-10">
           <Image
             src={ProfilePic}
             width={130}
@@ -19,9 +19,9 @@ export default function About({ id }: Props) {
             className="rounded-full"
           />
         </div>
-        <div className="content max-w-3xl space-y-5">
-          <h2 className="text-white text-2xl font-bold ">About Me</h2>
-          <p className="text-[#7a7a7a] text-xl">
+        <div className="max-w-md space-y-5 content lg:max-w-3xl">
+          <h2 className="text-2xl font-bold text-white ">About Me</h2>
+          <p className="text-[#7a7a7a]">
             I am final year student pursuing B.Tech+M.Tech (IT) from Indian
             Institute of Information Technology & Management, Gwalior. My area
             of interest in the field of Full Stack Web Development. My aim is to
@@ -30,9 +30,9 @@ export default function About({ id }: Props) {
             while gaining experience and sharpen my skill sets. Recently, I have
             been exploring blockchain as well.
           </p>
-          <div className="contact-details flex space-x-12">
-            <div className="details space-y-3">
-              <h2 className="text-white text-2xl font-bold">Contact Details</h2>
+          <div className="contact-details lg:flex lg:space-x-12">
+            <div className="space-y-3 details">
+              <h2 className="text-2xl font-bold text-white">Contact Details</h2>
               <p className="text-[#7a7a7a] text-xl">
                 Aditya Santra <br /> BH3, ABV-IIITM
                 <br /> Gwalior Madhya Pradesh, 474015
@@ -40,10 +40,14 @@ export default function About({ id }: Props) {
                 adityassid@gmail.com
               </p>
             </div>
-            <div className="download-btn">
+            <div className="mt-5 download-btn">
               <Link href="/">
-                <a className="py-4 px-5 font-bold rounded block text-white  bg-[#444] hover:text-[#2b2b2b] hover:bg-white transition-colors duration-300 ease-in-out">
-                  <FaDownload className="mr-4 w-4 inline align-bottom" />
+                <a
+                  className="py-4 px-5 font-bold text-white rounded block 
+                bg-[#444] hover:text-[#2b2b2b] hover:bg-white transition-colors duration-300
+                 ease-in-out white text-center"
+                >
+                  <FaDownload className="inline w-4 mr-4 align-bottom" />
                   Download Resume
                 </a>
               </Link>

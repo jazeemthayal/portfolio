@@ -18,7 +18,7 @@ export default function Header({ id }: Props) {
         <Navbar />
         <div className="content flex flex-col items-center divide-y ">
           <div className="flex flex-col items-center mb-4">
-            <h1 className=" text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold py-8">
+            <h1 className=" text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold py-8 text-center">
               I'm Jazeem Thayal.
             </h1>
             <h3 className=' w-1/2 text-gray-400 text-base sm:text-lg md:text-xl lg:text-2xl font-["librebaskerville-regular,serif"] text-center'>

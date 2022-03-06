@@ -12,7 +12,7 @@ export default function Works({ id }: Props) {
       <h2 className="font-semibold text-[#95a3a3] tracking-widest text-center mb-10">
         CHECK OUT SOME OF MY WORKS.
       </h2>
-      <div className="details lg:flex lg:justify-center lg:flex-wrap space-x-12">
+      <div className="details justify-items-center grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
         <div className="detail-1 relative group w-full max-w-[230px] ">
           <Link href="/">
             <a>

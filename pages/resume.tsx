@@ -7,14 +7,21 @@ interface Props {
 export default function Resume({ id }: Props) {
   return (
     <section className="py-20" id={id}>
-      <div className="content mx-44 space-y-14">
-        <div className="edu flex pb-11 px-5 border-b-[1px] border-slate-200">
-          <div className="heading w-52 ">
-            <span className="uppercase text-lg text-[#313131] font-semibold pb-1 border-b-[3px] border-[#11abb0]">
+      <div className="content max-w-screen-lg m-auto space-y-14">
+        {/* xl:mx-44 */}
+        <div
+          className="edu md:flex pb-11 px-5 border-b-[1px] border-slate-200 
+        text-center md:text-left space-y-5 md:space-y-0"
+        >
+          <div className="heading md:w-1/4">
+            <span
+              className="uppercase text-lg text-[#313131] font-semibold pb-1
+             border-b-[3px] border-[#11abb0]"
+            >
               education
             </span>
           </div>
-          <div className="details max-w-2xl">
+          <div className="max-w-2xl space-y-5 md:space-y-0 details md:w-3/4">
             <h2 className="text-2xl text-[#313131] font-bold">
               Indian Institute of Information Technology & Management, Gwalior
             </h2>
@@ -27,13 +34,19 @@ export default function Resume({ id }: Props) {
             </p>
           </div>
         </div>
-        <div className="work flex pb-11 px-5 border-b-[1px] border-slate-200">
-          <div className="heading w-52">
-            <span className="uppercase text-lg text-[#313131] font-semibold pb-1 border-b-[3px] border-[#11abb0]">
+        <div
+          className="work md:flex pb-11 px-5 border-b-[1px] border-slate-200
+         text-center md:text-left space-y-5 md:space-y-0"
+        >
+          <div className="heading md:w-1/4">
+            <span
+              className="uppercase text-lg text-[#313131] font-semibold pb-1 
+            border-b-[3px] border-[#11abb0]"
+            >
               work
             </span>
           </div>
-          <div className="details max-w-2xl space-y-12">
+          <div className="max-w-2xl space-y-5 md:space-y-12 details md:w-3/4">
             <div className="detail-1">
               <h2 className="text-2xl text-[#313131] font-bold">
                 WNS Global services
@@ -73,13 +86,13 @@ export default function Resume({ id }: Props) {
             </div>
           </div>
         </div>
-        <div className="skills flex px-5">
-          <div className="heading w-52">
+        <div className="px-5 space-y-5 skills md:flex md:space-y-0">
+          <div className="text-center md:text-left heading md:w-1/4">
             <span className="uppercase text-lg text-[#313131] font-semibold pb-1 border-b-[3px] border-[#11abb0]">
               skills
             </span>
           </div>
-          <div className="details max-w-2xl space-y-6">
+          <div className="max-w-2xl space-y-6 details md:w-3/4">
             <SkillElement name="html" percent={90} />
             <SkillElement name="css" percent={80} />
             <SkillElement name="bootstrap" percent={75} />
