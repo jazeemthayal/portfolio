@@ -16,7 +16,7 @@ export default function Home() {
       <Header id="home" />
       <About id="about" />
       <Resume id="resume" />
-      <Works id="works" />
+      {/* <Works id="works" /> */}
       <Contact id="contact" />
       <Footer />
     </>

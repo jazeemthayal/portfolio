@@ -15,29 +15,29 @@ export default function Footer() {
       <div className="flex justify-center space-x-10">
         <IconContext.Provider value={{ size: "1.75em" }}>
           {/* note : Link note needed because fresh load of page is opening in new tab */}
-          <a
+          {/* <a
             href="https://www.facebook.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <ImFacebook className="text-[#525252] hover:text-white transition-colors duration-300 ease-in-out" />
-          </a>
+          </a> */}
           <a
-            href="https://www.twitter.com"
+            href="https://www.twitter.com/jazeem_thayal"
             target="_blank"
             rel="noreferrer noopener"
           >
             <ImTwitter className="text-[#525252] hover:text-white transition-colors duration-300 ease-in-out" />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/jazeem-thayal-5486a4163"
             target="_blank"
             rel="noreferrer noopener"
           >
             <ImLinkedin2 className="text-[#525252] hover:text-white transition-colors duration-300 ease-in-out" />
           </a>
           <a
-            href="https://www.github.com"
+            href="https://github.com/jazeemthayal"
             target="_blank"
             rel="noreferrer noopener"
           >

@@ -87,9 +87,9 @@ export default function Contact({ id }: Props) {
           <div className="address lg:ml-24 max-w-[541px] px-5 m-auto">
             <h3 className="capitalize font-bold text-white">address</h3>
             <p className="text-[#636363] text-sm leading-7">
-              Aditya Santra <br />
-              BH3, ABV-IIITM <br />
-              Gwalior, Madhya Pradesh 474015
+              Jazeem Thayal <br />
+              Jabel Ali, Dubai <br />
+              United Arab Emirates
             </p>
           </div>
         </div>

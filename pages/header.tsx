@@ -28,7 +28,7 @@ export default function Header({ id }: Props) {
             </h3>
           </div>
           <ul className="flex justify-center w-1/3 pt-4 space-x-7">
-            <li>
+            {/* <li>
               <a
                 href="https://www.facebook.com"
                 target="_blank"
@@ -36,10 +36,10 @@ export default function Header({ id }: Props) {
               >
                 <ImFacebook className="hover:text-[#11abb0] transition-colors duration-300 ease-in-out" />
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.twitter.com"
+                href="https://www.twitter.com/jazeem_thayal"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,7 +48,7 @@ export default function Header({ id }: Props) {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/jazeem-thayal-5486a4163"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -57,7 +57,7 @@ export default function Header({ id }: Props) {
             </li>
             <li>
               <a
-                href="https://www.github.com"
+                href="https://www.github.com/jazeemthayal"
                 target="_blank"
                 rel="noopener noreferrer"
               >

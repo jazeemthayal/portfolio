@@ -138,7 +138,7 @@ export default function Navbar() {
               resume
             </ReactScrollLink>
           </li>
-          <li className={mbMenuListItem}>
+          {/* <li className={mbMenuListItem}>
             <ReactScrollLink
               to="works"
               smooth="true"
@@ -147,7 +147,7 @@ export default function Navbar() {
             >
               works
             </ReactScrollLink>
-          </li>
+          </li> */}
           <li className={mbMenuListItem}>
             <ReactScrollLink
               to="contact"
@@ -192,7 +192,7 @@ export default function Navbar() {
             Resume
           </ReactScrollLink>
         </li>
-        <li className="cursor-pointer">
+        {/* <li className="cursor-pointer">
           <ReactScrollLink
             to="works"
             smooth="true"
@@ -201,7 +201,7 @@ export default function Navbar() {
           >
             Works
           </ReactScrollLink>
-        </li>
+        </li> */}
         <li className="cursor-pointer">
           <ReactScrollLink
             to="contact"
